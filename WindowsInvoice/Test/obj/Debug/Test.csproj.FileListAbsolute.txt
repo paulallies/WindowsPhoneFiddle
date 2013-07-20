@@ -1,0 +1,7 @@
+C:\Developer\github.com\WindowsPhoneFiddle\WindowsInvoice\Test\bin\Debug\Test.dll
+C:\Developer\github.com\WindowsPhoneFiddle\WindowsInvoice\Test\bin\Debug\Test.pdb
+C:\Developer\github.com\WindowsPhoneFiddle\WindowsInvoice\Test\bin\Debug\nunit.framework.dll
+C:\Developer\github.com\WindowsPhoneFiddle\WindowsInvoice\Test\bin\Debug\nunit.framework.xml
+C:\Developer\github.com\WindowsPhoneFiddle\WindowsInvoice\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Developer\github.com\WindowsPhoneFiddle\WindowsInvoice\Test\obj\Debug\Test.dll
+C:\Developer\github.com\WindowsPhoneFiddle\WindowsInvoice\Test\obj\Debug\Test.pdb

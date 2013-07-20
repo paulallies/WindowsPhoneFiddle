@@ -1,0 +1,1 @@
+##The solution houses the projects for windows phone, windows store and web application

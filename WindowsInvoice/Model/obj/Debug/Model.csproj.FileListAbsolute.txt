@@ -1,0 +1,5 @@
+C:\Developer\github.com\WindowsPhoneFiddle\WindowsInvoice\Model\bin\Debug\Model.dll
+C:\Developer\github.com\WindowsPhoneFiddle\WindowsInvoice\Model\bin\Debug\Model.pdb
+C:\Developer\github.com\WindowsPhoneFiddle\WindowsInvoice\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Developer\github.com\WindowsPhoneFiddle\WindowsInvoice\Model\obj\Debug\Model.dll
+C:\Developer\github.com\WindowsPhoneFiddle\WindowsInvoice\Model\obj\Debug\Model.pdb
