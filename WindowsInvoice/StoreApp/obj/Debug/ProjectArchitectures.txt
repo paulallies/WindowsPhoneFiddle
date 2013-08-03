@@ -1,0 +1,1 @@
+E:\Developer\WindowsPhoneFiddle\WindowsInvoice\StoreApp\StoreApp.csproj;neutral

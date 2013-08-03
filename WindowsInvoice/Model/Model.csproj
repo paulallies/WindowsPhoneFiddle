@@ -34,12 +34,21 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Customer.cs" />
-    <Compile Include="Invoice.cs" />
-    <Compile Include="InvoiceLine.cs" />
+    <Compile Include="DataContexts\InvoiceContext.cs" />
+    <Compile Include="Entities\Customer.cs" />
+    <Compile Include="Repositories\CustomerRepository.cs" />
+    <Compile Include="Repositories\ICustomerRepository.cs" />
+    <Compile Include="Entities\Invoice.cs" />
+    <Compile Include="Entities\InvoiceLine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\..\..\..\paulallies.visualstudio.com\MvcApplication1\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
