@@ -8,18 +8,31 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using LayoutBasics.Resources;
+using LayoutBasics.Models;
 
 namespace LayoutBasics
 {
+
+
     public partial class MainPage : PhoneApplicationPage
     {
-        // Constructor
+        private Contact contact;
         public MainPage()
         {
             InitializeComponent();
 
-            // Sample code to localize the ApplicationBar
-            //BuildLocalizedApplicationBar();
+
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            contact = new Contact
+            {
+                Name = "Paul",
+                Address = "123 Pluto Rd Plumstead",
+                Email = "paul.allies@gmail.com"
+            };
+            DataContext = contact;
         }
 
         // Sample code for building a localized ApplicationBar
