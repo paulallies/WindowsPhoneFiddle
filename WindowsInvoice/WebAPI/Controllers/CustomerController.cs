@@ -9,24 +9,32 @@ using System.Net.Http;
 using System.Web;
 using System.Web.Http;
 using Model.Entities;
+using Model.Repositories;
 
 namespace WebAPI.Controllers
 {
     public class CustomerController : ApiController
     {
-        private InvoiceContext db = new InvoiceContext();
-       
+        readonly ICustomerRepository repo;
+
+        public CustomerController() { 
+            this.repo = new CustomerRepository();
+        }
+
+        public CustomerController(ICustomerRepository repo) {
+            this.repo = repo;
+        }
 
         // GET api/Customer
         public IEnumerable<Customer> GetCustomers()
         {
-            return db.Customers.AsEnumerable();
+            return repo.getAllCustomers();
         }
 
         // GET api/Customer/5
         public Customer GetCustomer(int id)
         {
-            Customer customer = db.Customers.Find(id);
+            Customer customer = repo.getOneCustomer(id);
             if (customer == null)
             {
                 throw new HttpResponseException(Request.CreateResponse(HttpStatusCode.NotFound));
@@ -47,12 +55,13 @@ namespace WebAPI.Controllers
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest);
             }
-
-            db.Entry(customer).State = EntityState.Modified;
-
+          
+          
+            
             try
             {
-                db.SaveChanges();
+                repo.updateCustomer(customer);
+               
             }
             catch (DbUpdateConcurrencyException ex)
             {
@@ -67,9 +76,7 @@ namespace WebAPI.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Customers.Add(customer);
-                db.SaveChanges();
-
+                repo.AddCustomer(customer);
                 HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.Created, customer);
                 response.Headers.Location = new Uri(Url.Link("DefaultApi", new { id = customer.id }));
                 return response;
@@ -83,17 +90,16 @@ namespace WebAPI.Controllers
         // DELETE api/Customer/5
         public HttpResponseMessage DeleteCustomer(int id)
         {
-            Customer customer = db.Customers.Find(id);
+            Customer customer = repo.getOneCustomer(id);
             if (customer == null)
             {
                 return Request.CreateResponse(HttpStatusCode.NotFound);
             }
 
-            db.Customers.Remove(customer);
 
             try
             {
-                db.SaveChanges();
+                repo.deleteCustomer(customer);
             }
             catch (DbUpdateConcurrencyException ex)
             {

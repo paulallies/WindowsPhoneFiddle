@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Model.Repositories
 {
@@ -10,17 +11,18 @@ namespace Model.Repositories
     {
         //Insert
         Customer AddCustomer(Customer customer);
-        
+
+        //Delete
+        void deleteCustomer(Customer customer);
+
+        //Update
+        Customer updateCustomer(Customer customer);
+
         //Read All
         IEnumerable<Customer> getAllCustomers();
 
         //Read One
         Customer getOneCustomer(int id);
 
-        //Delete Customer
-        void DeleteCustomer(int id);
-
-        //Update Customer
-        Customer updateCustomer(Customer customter);
     }
 }

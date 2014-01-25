@@ -1,5 +1,8 @@
-C:\Developer\github.com\WindowsPhoneFiddle\WindowsInvoice\Model\bin\Debug\Model.dll
-C:\Developer\github.com\WindowsPhoneFiddle\WindowsInvoice\Model\bin\Debug\Model.pdb
-C:\Developer\github.com\WindowsPhoneFiddle\WindowsInvoice\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
-C:\Developer\github.com\WindowsPhoneFiddle\WindowsInvoice\Model\obj\Debug\Model.dll
-C:\Developer\github.com\WindowsPhoneFiddle\WindowsInvoice\Model\obj\Debug\Model.pdb
+E:\Developer\WindowsPhoneFiddle\WindowsInvoice\Model\bin\Debug\Model.dll.config
+E:\Developer\WindowsPhoneFiddle\WindowsInvoice\Model\bin\Debug\Model.dll
+E:\Developer\WindowsPhoneFiddle\WindowsInvoice\Model\bin\Debug\Model.pdb
+E:\Developer\WindowsPhoneFiddle\WindowsInvoice\Model\bin\Debug\EntityFramework.dll
+E:\Developer\WindowsPhoneFiddle\WindowsInvoice\Model\bin\Debug\EntityFramework.xml
+E:\Developer\WindowsPhoneFiddle\WindowsInvoice\Model\obj\Debug\Model.dll
+E:\Developer\WindowsPhoneFiddle\WindowsInvoice\Model\obj\Debug\Model.pdb
+E:\Developer\WindowsPhoneFiddle\WindowsInvoice\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

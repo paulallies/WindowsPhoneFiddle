@@ -1,12 +1,12 @@
-﻿<xapCache source="E:\Developer\WindowsPhoneFiddle\WindowsInvoice\PhoneApp\Bin\Debug\PhoneApp_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2013-08-03 04:13:49 PM">
-  <file source="E:\Developer\WindowsPhoneFiddle\WindowsInvoice\PhoneApp\obj\Debug\PhoneApp.dll" archivePath="PhoneApp.dll" lastWriteTime="2013-08-03 04:13:48 PM" />
+﻿<xapCache source="E:\Developer\WindowsPhoneFiddle\WindowsInvoice\PhoneApp\Bin\Debug\PhoneApp_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2013-08-04 12:26:19 AM">
+  <file source="E:\Developer\WindowsPhoneFiddle\WindowsInvoice\PhoneApp\obj\Debug\PhoneApp.dll" archivePath="PhoneApp.dll" lastWriteTime="2013-08-04 12:26:18 AM" />
   <file source="E:\Developer\WindowsPhoneFiddle\WindowsInvoice\PhoneApp\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2013-07-21 05:40:58 PM" />
   <file source="E:\Developer\WindowsPhoneFiddle\WindowsInvoice\PhoneApp\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="2013-07-21 05:40:58 PM" />
   <file source="E:\Developer\WindowsPhoneFiddle\WindowsInvoice\PhoneApp\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="2013-07-21 05:40:58 PM" />
   <file source="E:\Developer\WindowsPhoneFiddle\WindowsInvoice\PhoneApp\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="2013-07-21 05:40:58 PM" />
   <file source="E:\Developer\WindowsPhoneFiddle\WindowsInvoice\PhoneApp\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="2013-07-21 05:40:58 PM" />
-  <file source="E:\Developer\WindowsPhoneFiddle\WindowsInvoice\PhoneApp\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2013-08-03 04:13:49 PM" />
+  <file source="E:\Developer\WindowsPhoneFiddle\WindowsInvoice\PhoneApp\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2013-08-04 12:26:18 AM" />
   <file source="E:\Developer\WindowsPhoneFiddle\WindowsInvoice\PhoneApp\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2013-07-21 05:40:58 PM" />
   <file source="E:\Developer\WindowsPhoneFiddle\WindowsInvoice\PhoneApp\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2013-07-21 05:40:58 PM" />
-  <file source="E:\Developer\WindowsPhoneFiddle\WindowsInvoice\PhoneApp\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2013-08-03 04:13:49 PM" />
+  <file source="E:\Developer\WindowsPhoneFiddle\WindowsInvoice\PhoneApp\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2013-08-04 12:26:18 AM" />
 </xapCache>
