@@ -1,0 +1,14 @@
+﻿<Application
+    x:Class="CaliburnTestProject.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:cm="clr-namespace:CaliburnTestProject">
+
+    <!--Application Resources-->
+    <Application.Resources>
+        <cm:Bootstrap x:Key="Bootstrap"></cm:Bootstrap>
+    </Application.Resources>
+
+</Application>
